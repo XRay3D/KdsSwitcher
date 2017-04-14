@@ -1,0 +1,49 @@
+QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(9, 41, 4, 255), stop:0.085 rgba(2, 79, 0, 255), stop:0.19 rgba(50, 147, 22, 255), stop:0.275 rgba(236, 191, 49, 255), stop:0.39 rgba(243, 61, 34, 255), stop:0.555 rgba(135, 81, 60, 255), stop:0.667 rgba(121, 75, 255, 255), stop:0.825 rgba(164, 255, 244, 255), stop:0.885 rgba(104, 222, 71, 255), stop:1 rgba(93, 128, 0, 255));
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color:  rgb(0, 150, 0);
+    font: 12px;
+    min-width: 2em;
+    padding: 2px;
+ } 
+ 
+ QPushButton:pressed {
+    background-color: rgb(0, 180 , 0);
+    border-style: inset;
+ }
+ 
+ QComboBox{
+ }
+ 
+QLabel{
+}
+ 
+QSpinBox{
+    background-color: rgb(0, 200, 0);
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color:  rgb(0, 150, 0);
+    font: 12px, rgb(0, 150, 0);;
+    min-width: 2em;
+    padding: 2px;
+ }
+ 
+ QGroupBox{
+ }
+ 
+ QLineEdit{
+    background-color: rgb(0, 200, 0);
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color:  rgb(0, 150, 0);
+    font: 12px;
+    min-width: 2em;
+    padding: 2px;
+ }
+ 
+QStatusBar {
+ }
